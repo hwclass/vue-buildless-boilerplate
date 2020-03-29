@@ -7,9 +7,6 @@ export default Vue.component('heading', {
       {{content}}
     </h1>
   `,
-  style: {
-    heading: 'color: red;'
-  },
   computed: {
     styling: function() {
       return {
