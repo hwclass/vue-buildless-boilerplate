@@ -1,0 +1,18 @@
+{
+  "builds": [
+    { "src": "*.html", "use": "@now/static" },
+    {
+      "src": "web_modules/**/*.js",
+      "use": "@now/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@now/static"
+    },
+    {
+      "src": "src/components/*.js",
+      "use": "@now/static"
+    }
+  ],
+  "redirects": [{ "source": "^/favicon.ico$", "destination": "/favicon.ico" }]
+}
